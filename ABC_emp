@@ -1,0 +1,30 @@
+DROP TABLE abc_emp PURGE;
+CREATE TABLE abc_emp(
+	id NUMBER(5),
+	name VARCHAR2(20),
+	job VARCHAR2(10),
+	sal NUMBER(10),
+	dept NUMBER(5),
+CONSTRAINT pk_abc_emp PRIMARY KEY(id));
+
+INSERT INTO abc_emp VALUES(113,'Kimberly Nolan','ANALYST',30500,30);
+INSERT INTO abc_emp VALUES(103,'Michael Mathews','MANAGER',187500,20);
+INSERT INTO abc_emp VALUES(118,'Brenda King','ANALYST',50500,30);
+INSERT INTO abc_emp VALUES(106,'Gavin Charles','ANALYST',62000,10);
+INSERT INTO abc_emp VALUES(110,'Susan Sanchez','ANALYST',33500,10);
+INSERT INTO abc_emp VALUES(109,'Tara Hayes','ANALYST',28500,40);
+INSERT INTO abc_emp VALUES(111,'David Hudson','CLEARK',89000,10);
+INSERT INTO abc_emp VALUES(104,'Diana Dickerson','MANAGER',165500,10);
+INSERT INTO abc_emp VALUES(101,'Brandon Cross','CEO',255000,30);
+INSERT INTO abc_emp VALUES(112,'Stacey Foster','ANALYST',38000,30);
+INSERT INTO abc_emp VALUES(119,'Taylor Ruiz','MANAGER',152000,30);
+INSERT INTO abc_emp VALUES(108,'Edward Washington','CLEARK',29000,10);
+INSERT INTO abc_emp VALUES(105,'James Calhoun','CLEARK',88500,30);
+INSERT INTO abc_emp VALUES(117,'Kevin Yoder','MANAGER',142500,40);
+INSERT INTO abc_emp VALUES(116,'Robert Schultz','SALESMAN',57500,30);
+INSERT INTO abc_emp VALUES(107,'Lindsay Johnson','ANALYST',94000,10);
+INSERT INTO abc_emp VALUES(115,'Angela Torres','SALESMAN',40500,10);
+INSERT INTO abc_emp VALUES(114,'Michael Williams','ANALYST',37000,10);
+INSERT INTO abc_emp VALUES(102,'Shelly Stokes','CLEARK',51500,30);
+COMMIT;
+SELECT * FROM abc_emp;
