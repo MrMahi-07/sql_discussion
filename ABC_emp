@@ -28,3 +28,4 @@ INSERT INTO abc_emp VALUES(114,'Michael Williams','ANALYST',37000,10);
 INSERT INTO abc_emp VALUES(102,'Shelly Stokes','CLEARK',51500,30);
 COMMIT;
 SELECT * FROM abc_emp;
+
