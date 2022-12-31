@@ -1,9 +1,9 @@
 DROP TABLE employees PURGE;
 CREATE TABLE employees(
 	employee_id number(3),
-	first_name VARCHAR2(20),
-	last_name VARCHAR2(20),
-	gmail VARCHAR2(30),
+	first_name VARCHAR2(12),
+	last_name VARCHAR2(12),
+	gmail VARCHAR2(10),
 	phone_number VARCHAR2(20),
 	hire_date DATE,
 	job_id VARCHAR2(10),
