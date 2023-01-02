@@ -3,7 +3,7 @@ CREATE TABLE salesman(
 	salesman_id NUMBER(5),
 	name VARCHAR2(10),
 	city VARCHAR2(10),
-	commission NUMBER(5));
+	commission NUMBER(5,2));
 	
 INSERT INTO salesman VALUES(5001,'James Hoog','New York',0.15);
 INSERT INTO salesman VALUES(5002,'Nail Knite','Paris',0.13);
