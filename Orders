@@ -1,7 +1,7 @@
 DROP TABLE orders PURGE;
 CREATE TABLE orders(
 	ord_no NUMBER(5),
-	purch_amt NUMBER(10),
+	purch_amt NUMBER(10,2),
 	ord_date DATE,
 	customer_id NUMBER(5),
 	salesman_id NUMBER(5));
