@@ -7,7 +7,8 @@ CREATE TABLE employees(
 	phone_number VARCHAR2(20),
 	hire_date DATE,job_id VARCHAR2(10),
 	salary NUMBER(5),commission_pct VARCHAR2(5),
-	manager_id VARCHAR2(5),department_id VARCHAR2(5),
+	manager_id VARCHAR2(5),
+	department_id VARCHAR2(5),
 	CONSTRAINT pk_employees PRIMARY KEY(employee_id));
 
 INSERT INTO employees VALUES(100,'Steven','King','SKING','515-123-4567','28-JAN-2019','AD_PRES',24000,'','',90);
